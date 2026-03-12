@@ -10,7 +10,7 @@
 ## Figma Board
 [View the game design](https://www.figma.com/files/team/1490827275828327273/project/487596796/AutumnGame?fuid=1490827271784987808)
 
----
+
 
 ## Overview
 
@@ -19,7 +19,7 @@ The objective is to collect enough nuts under time pressure and safely store the
 
 The game combines **skill-based gameplay**, **strategy**, and **visual storytelling**, all set within a warm, slightly melancholic autumn atmosphere.
 
----
+
 
 ## Gameplay
 
@@ -38,7 +38,7 @@ The game combines **skill-based gameplay**, **strategy**, and **visual storytell
 - **Good ending:** All nuts are hidden before time runs out  
 - **Bad ending:** Time expires or all lives are lost
 
----
+
 
 ## Enemies and Hazards
 
@@ -47,7 +47,6 @@ The game combines **skill-based gameplay**, **strategy**, and **visual storytell
 - **Environmental hazards:** Obstacles, heights, and falling objects  
 - **Game Over:** Occurs when all three lives are lost
 
----
 
 ## UI and HUD
 
@@ -55,7 +54,7 @@ The game combines **skill-based gameplay**, **strategy**, and **visual storytell
 - **Progress:** Display of collected nuts *(x/10)*  
 - **Timer:** Countdown with a 120-second limit
 
----
+
 
 ## Level Structure
 
@@ -64,7 +63,7 @@ The game combines **skill-based gameplay**, **strategy**, and **visual storytell
 3. **Main Level:** Core gameplay including puzzles and enemies  
 4. **Ending Sequence:** Alternative endings presented as comic panels
 
----
+
 
 ## Visual Style
 
@@ -74,7 +73,7 @@ The game uses a minimal yet atmospheric style inspired by autumn landscapes:
 - hand-drawn sprites with parallax scrolling  
 - shader effects for fog, lighting, and depth
 
----
+
 
 ## Tools and Technologies
 
