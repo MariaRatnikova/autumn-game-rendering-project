@@ -1,88 +1,89 @@
-# 🍂 Autumn Survival – Squirrel Edition
+# Autumn Survival – Squirrel Edition
 
-**Ein interaktives 2D-Spiel im herbstlichen Stil**
+**An interactive 2D game with an autumn theme**
 
-> *„Ein poetisches, visuell immersives 2D-Spiel über Instinkt, Zeit und Natur.“*
+> *“A poetic, visually immersive 2D game about instinct, time, and nature.”*
 
-### Projektpräsentation
-[Hier gehts zur Präsentation](./Autumn-Survival-Squirrel-Edition__1_.pdf)
+## Project Presentation
+[View the presentation](./Autumn-Survival-Squirrel-Edition__1_.pdf)
 
-### Figma-Board
-[Spieldesign hier anschauen](https://www.figma.com/files/team/1490827275828327273/project/487596796/AutumnGame?fuid=1490827271784987808)
+## Figma Board
+[View the game design](https://www.figma.com/files/team/1490827275828327273/project/487596796/AutumnGame?fuid=1490827271784987808)
 
 ---
 
-## Überblick
+## Overview
 
-**Autumn Survival – Squirrel Edition** ist ein atmosphärisches **2D-Plattformspiel**, in dem ein kleines Eichhörnchen durch einen goldenen Herbstwald navigiert.  
-Ziel ist es, unter Zeitdruck genügend Nüsse zu sammeln und sicher zu verstecken, bevor der Winter einbricht.
+**Autumn Survival – Squirrel Edition** is an atmospheric **2D platformer** in which a small squirrel navigates through a golden autumn forest.  
+The objective is to collect enough nuts under time pressure and safely store them before winter arrives.
 
-Das Spiel vereint **Geschicklichkeit**, **Strategie** und **visuelles Storytelling** – eingebettet in eine warme, melancholische Herbststimmung.
+The game combines **skill-based gameplay**, **strategy**, and **visual storytelling**, all set within a warm, slightly melancholic autumn atmosphere.
 
 ---
 
 ## Gameplay
 
-### Grundlegende Steuerung
-- **Links / Rechts:** Bewegung entlang der Waldlandschaft  
-- **Springen / Klettern:** Vertikale Navigation auf Ästen und Bäumen  
-- **Interaktion:** Aufheben, Tragen und Platzieren von Nüssen oder Objekten  
+### Basic Controls
+- **Left / Right:** Move along the forest environment  
+- **Jump / Climb:** Vertical navigation across branches and trees  
+- **Interact:** Pick up, carry, and place nuts or objects  
 
-### Zielmechanik
-- Sammle **10 Nüsse**, die im Level verteilt sind  
-- Du kannst **immer nur eine Nuss gleichzeitig** tragen  
-- Lege jede Nuss in einem der **Verstecke (Caches)** ab  
-- Schließe das Level innerhalb von **2 Minuten**
+### Core Objective
+- Collect **10 nuts** scattered throughout the level  
+- The squirrel can **carry only one nut at a time**  
+- Place each nut into one of the **hiding spots (caches)**  
+- Complete the level within **2 minutes**
 
-### Enden
-- **Gutes Ende:** Alle Nüsse wurden rechtzeitig versteckt  
-- **Schlechtes Ende:** Zeitlimit abgelaufen oder Leben verloren
-
----
-
-## 🦊 Gegner & Gefahren
-- **Fuchs (Boden):** Patrouilliert auf festgelegter Route  
-  → Bei Berührung verlierst du ein Leben  
-- **Umweltgefahren:** Hindernisse, Höhen, fallende Objekte  
-- **Game Over:** Wenn alle 3 Leben verloren sind
+### Endings
+- **Good ending:** All nuts are hidden before time runs out  
+- **Bad ending:** Time expires or all lives are lost
 
 ---
 
-## UI & HUD
-- **Leben:** Drei Herzen zeigen verbleibende Chancen  
-- **Fortschritt:** Anzeige „gesammelte Nüsse (x/10)“  
-- **Zeit:** Countdown mit 120 Sekunden Limit
+## Enemies and Hazards
+
+- **Fox (ground enemy):** Patrols along a predefined path  
+  Contact results in losing one life  
+- **Environmental hazards:** Obstacles, heights, and falling objects  
+- **Game Over:** Occurs when all three lives are lost
 
 ---
 
-## Levelstruktur
+## UI and HUD
 
-1. **Startbildschirm:** Titel, Start-Button, Optionen  
-2. **Intro-Szene:** Comic-Stil-Animation zur Story  
-3. **Hauptlevel:** Kern-Gameplay mit Rätseln & Gegnern  
-4. **Endsequenz:** Alternativ-Enden (Comic-Panels)
-
----
-
-## Visueller Stil
-Ein minimaler, aber stimmungsvoller Look inspiriert von Herbstlandschaften:  
-- warme Farbtöne, weiches Licht, leichte Nebeleffekte  
-- handgezeichnete Sprites, parallax-Scrolling  
-- Shader-Effekte für Nebel, Licht und Tiefe
+- **Lives:** Three hearts indicate remaining lives  
+- **Progress:** Display of collected nuts *(x/10)*  
+- **Timer:** Countdown with a 120-second limit
 
 ---
 
-## Verwendete Tools & Technologien
+## Level Structure
 
-| Bereich | Tools / Technologien |
-|----------|---------------------|
+1. **Start Screen:** Title, start button, and options  
+2. **Intro Scene:** Comic-style animation introducing the story  
+3. **Main Level:** Core gameplay including puzzles and enemies  
+4. **Ending Sequence:** Alternative endings presented as comic panels
+
+---
+
+## Visual Style
+
+The game uses a minimal yet atmospheric style inspired by autumn landscapes:
+
+- warm color tones, soft lighting, and light fog effects  
+- hand-drawn sprites with parallax scrolling  
+- shader effects for fog, lighting, and depth
+
+---
+
+## Tools and Technologies
+
+| Area | Tools / Technologies |
+|------|----------------------|
 | Game Engine | **Unity 2D (URP)** |
-| Programmierung | **C#** |
-| Shader & Effekte | **Shader Graph** |
+| Programming | **C#** |
+| Shaders & Effects | **Shader Graph** |
 | Design | **Figma** |
-| 2D/3D-Assets | **Blender (optional)** |
-| Audio | ** Freesound.org** |
-| Versionskontrolle | **GitLab** |
-
----
-
+| 2D/3D Assets | **Blender (optional)** |
+| Audio | **Freesound.org** |
+| Version Control | **GitLab** |
