@@ -7,10 +7,6 @@
 ## Project Presentation
 [View the presentation](./Autumn-Survival-Squirrel-Edition__1_.pdf)
 
-## Figma Board
-[View the game design](https://www.figma.com/files/team/1490827275828327273/project/487596796/AutumnGame?fuid=1490827271784987808)
-
-
 
 ## Overview
 
